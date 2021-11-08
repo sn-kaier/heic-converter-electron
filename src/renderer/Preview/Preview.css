@@ -1,0 +1,12 @@
+.preview {
+  flex: 1;
+}
+
+.preview-loading {
+  width: 100%;
+  display: flex;
+}
+
+.preview-image {
+  width: 100%;
+}

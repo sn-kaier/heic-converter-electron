@@ -1,0 +1,14 @@
+.files-list {
+  width: 22rem;
+  display: flex;
+  flex-direction: column;
+  overflow-x: auto;
+}
+
+.file-item {
+  cursor: pointer;
+}
+
+.file-item.selected {
+  font-weight: bold;
+}

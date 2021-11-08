@@ -1,0 +1,18 @@
+{
+  "name": "electron-heic-converter",
+  "productName": "Heic Converter",
+  "version": "1.0.0",
+  "description": "Small Application to convert Images from .heic to .jpg",
+  "main": "./dist/main/main.js",
+  "author": {
+    "name": "Simon Kaier",
+    "email": "simon.kaier@gmail.com",
+    "url": "https://github.com/sn-kaier"
+  },
+  "scripts": {
+    "electron-rebuild": "node -r ts-node/register ../../.erb/scripts/electron-rebuild.js",
+    "link-modules": "node -r ts-node/register ../../.erb/scripts/link-modules.js",
+    "postinstall": "npm run electron-rebuild && npm run link-modules"
+  },
+  "license": "MIT"
+}

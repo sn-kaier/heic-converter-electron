@@ -1,0 +1,17 @@
+.input-move-to {
+  border-radius: 5px;
+  border: none;
+  padding: 2px 5px;
+  margin: 0 10px;
+}
+
+.move-original {
+  display: flex;
+  flex-direction: column;
+}
+
+.move-block {
+  display: flex;
+  gap: 1rem;
+  flex-direction: row;
+}
